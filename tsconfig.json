@@ -12,6 +12,5 @@
     "paths": {
       "@dcousens/*": ["*"]
     }
-  },
-  "include": ["packages/*/**.ts", "packages/**/package.json"]
+  }
 }

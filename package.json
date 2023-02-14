@@ -4,7 +4,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -p tsconfig.dist.json",
     "test": "tsx tests/*.ts"
   },
   "private": true,
