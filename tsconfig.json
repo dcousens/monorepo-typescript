@@ -6,7 +6,6 @@
     "moduleResolution": "node",
 
     "resolveJsonModule": true,
-    "outDir": "dist",
 
     "baseUrl": "packages",
     "paths": {
