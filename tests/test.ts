@@ -5,8 +5,10 @@ function test () {
   const output = foo() + bar()
 
   if (output !== 'foobar') {
-    throw new Error('invalid')
+    throw new Error('tests failed')
   }
+
+  console.log('tests passed')
 }
 
 test()
