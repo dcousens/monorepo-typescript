@@ -2,6 +2,10 @@
   "compilerOptions": {
     "strict": true,
     "target": "esnext",
-    "module": "esnext"
+    "module": "esnext",
+    "paths": {
+      "@dcousens/foo": "packages/foo",
+      "@dcousens/bar": "packages/bar"
+    ]
   }
 }
