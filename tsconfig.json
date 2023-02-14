@@ -3,9 +3,10 @@
     "strict": true,
     "target": "esnext",
     "module": "esnext",
+    "moduleResolution": "node",
+    "baseUrl": "packages",
     "paths": {
-      "@dcousens/foo": "packages/foo",
-      "@dcousens/bar": "packages/bar"
-    ]
+      "@dcousens/*": "*"
+    }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@dcousens/foo",
-  "version": "1.0.1",
+  "name": "@dcousens/monorepo",
+  "version": "0.0.99",
   "license": "MIT",
   "type": "module",
   "private": true

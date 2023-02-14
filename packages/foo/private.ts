@@ -1,3 +1,5 @@
+import { stringify } from '@dcousens/stringify'
+
 export function aPrivateFoo () {
-  return 'foo'
+  return stringify('foo')
 }

@@ -1,6 +1,6 @@
 {
-  "name": "@dcousens/foo",
-  "version": "1.0.1",
+  "name": "@dcousens/stringify",
+  "version": "1.0.0",
   "license": "MIT",
   "type": "module",
   "private": true
