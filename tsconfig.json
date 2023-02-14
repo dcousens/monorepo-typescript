@@ -4,9 +4,14 @@
     "target": "esnext",
     "module": "esnext",
     "moduleResolution": "node",
+
+    "resolveJsonModule": true,
+    "outDir": "dist",
+
     "baseUrl": "packages",
     "paths": {
       "@dcousens/*": ["*"]
     }
-  }
+  },
+  "include": ["packages/*/**.ts", "packages/**/package.json"]
 }
