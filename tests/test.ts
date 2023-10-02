@@ -1,14 +1,11 @@
+import { test, beforeEach } from 'node:test'
+import { equal } from 'node:assert/strict'
+
 import foo from '@dcousens/foo'
 import { bar } from '@dcousens/bar'
 
-function test () {
+test(() => {
   const output = foo() + bar()
 
-  if (output !== 'foobar') {
-    throw new Error('tests failed')
-  }
-
-  console.log('tests passed')
-}
-
-test()
+  equal(output, 'foobar', 'oh oh')
+})
