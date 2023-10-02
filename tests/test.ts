@@ -7,5 +7,5 @@ import { bar } from '@dcousens/bar'
 test(() => {
   const output = foo() + bar()
 
-  equal(output, 'foobar', 'oh oh')
+  equal(output, 'foo3600000bar')
 })

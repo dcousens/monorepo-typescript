@@ -8,7 +8,7 @@
     "start": "tsx main.ts"
   },
   "dependencies": {
-    "@dcousens/foo": "*",
-    "@dcousens/bar": "*"
+    "@dcousens/foo": "workspace:^",
+    "@dcousens/bar": "workspace:^"
   }
 }
