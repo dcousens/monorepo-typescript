@@ -3,7 +3,7 @@
   "version": "0.0.99",
   "license": "MIT",
   "type": "module",
-  "packageManager": "pnpm@8.8.0",
+  "packageManager": "pnpm@8.9.2",
   "scripts": {
     "build": "tsc -p tsconfig.dist.json",
     "test": "node --loader tsx tests/*.ts"
