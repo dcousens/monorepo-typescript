@@ -6,7 +6,9 @@
   "packageManager": "pnpm@8.9.2",
   "scripts": {
     "build": "tsc -p tsconfig.dist.json",
-    "test": "node --loader tsx tests/*.ts"
+    "test:types": "tsc -p tsconfig.json",
+    "test:unit": "node --loader tsx tests/*.ts",
+    "test": "pnpm test:types && pnpm test:unit"
   },
   "private": true,
   "devDependencies": {
