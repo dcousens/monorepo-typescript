@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.dist.json",
     "test:types": "tsc -p tsconfig.json",
-    "test:unit": "node --loader tsx tests/*.ts",
+    "test:unit": "node --test --loader tsx tests/*.ts",
     "test": "pnpm test:types && pnpm test:unit"
   },
   "private": true,
