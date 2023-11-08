@@ -12,6 +12,9 @@
   },
   "private": true,
   "devDependencies": {
+    "@dcousens/foo": "workspace:^",
+    "@dcousens/bar": "workspace:^",
+    "@dcousens/stringify": "workspace:^",
     "@types/node": "^20.8.0",
     "tsx": "^3.13.0",
     "typescript": "^5.2.2"

@@ -3,5 +3,9 @@
   "version": "1.0.2",
   "license": "MIT",
   "type": "module",
-  "private": true
+  "exports": "./index.js",
+  "private": true,
+  "dependencies": {
+    "@dcousens/stringify": "workspace:^"
+  }
 }

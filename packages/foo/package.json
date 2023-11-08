@@ -4,7 +4,9 @@
   "license": "MIT",
   "type": "module",
   "private": true,
+  "exports": "./index.js",
   "dependencies": {
+    "@dcousens/stringify": "workspace:^",
     "ms": "^2.1.3"
   },
   "devDependencies": {
