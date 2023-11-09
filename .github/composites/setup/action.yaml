@@ -2,6 +2,9 @@ name: Setup
 runs:
   using: 'composite'
   steps:
+    - run: set -o pipefail
+      shell: bash
+
     - run: corepack enable
       shell: bash
 
