@@ -11,7 +11,6 @@
   },
   "type": "module",
   "exports": "./index.js",
-  "private": true,
   "dependencies": {
     "@dcousens/stringify": "workspace:^"
   }

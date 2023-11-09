@@ -10,7 +10,6 @@
     "directory": "packages/foo"
   },
   "type": "module",
-  "private": true,
   "exports": "./index.js",
   "dependencies": {
     "@dcousens/stringify": "workspace:^",

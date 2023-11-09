@@ -30,7 +30,7 @@ jobs:
 
       - run: pnpm build
       - name: npm publish
-        run: pnpm publish --access=restricted --tag ${{ inputs.npm_tag }} --report-summary --dry-run
+        run: pnpm publish --access=public --tag ${{ inputs.npm_tag }} --report-summary
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
           NPM_CONFIG_PROVENANCE: true

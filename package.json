@@ -16,7 +16,6 @@
     "test:unit": "node --test --loader tsx tests/*.ts",
     "test": "pnpm test:types && pnpm test:unit"
   },
-  "private": true,
   "devDependencies": {
     "@dcousens/foo": "workspace:^",
     "@dcousens/bar": "workspace:^",
