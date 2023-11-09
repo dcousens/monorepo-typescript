@@ -2,6 +2,13 @@
   "name": "@dcousens/bar",
   "version": "1.0.2",
   "license": "MIT",
+  "author": "Daniel Cousens",
+  "description": "...",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/dcousens/monorepo-typescript.git",
+    "directory": "packages/bar"
+  },
   "type": "module",
   "exports": "./index.js",
   "private": true,

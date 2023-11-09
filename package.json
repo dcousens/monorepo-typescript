@@ -2,6 +2,12 @@
   "name": "@dcousens/monorepo",
   "version": "0.0.99",
   "license": "MIT",
+  "author": "Daniel Cousens",
+  "description": "...",
+  "repository": {
+    "type" : "git",
+    "url": "https://github.com/dcousens/monorepo-typescript.git"
+  },
   "type": "module",
   "packageManager": "pnpm@8.9.2",
   "scripts": {
