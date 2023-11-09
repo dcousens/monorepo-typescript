@@ -24,11 +24,6 @@ jobs:
       - uses: ./.github/composites/setup
       - run: pnpm build
 
-      - name: git configuration
-        run: |
-          git config --global user.name 'Dcousens Bot'
-          git config --global user.email 'github+automation@dcousens.com'
-
       - run: pnpm build
       - name: npm publish
         run: pnpm publish --access=public --tag ${{ inputs.npm_tag }} --report-summary
