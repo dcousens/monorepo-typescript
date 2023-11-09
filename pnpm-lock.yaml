@@ -26,6 +26,7 @@ importers:
       typescript:
         specifier: ^5.2.2
         version: 5.2.2
+    publishDirectory: dist
 
   examples/entry:
     dependencies:
