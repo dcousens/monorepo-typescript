@@ -4,25 +4,32 @@
   "license": "MIT",
   "author": "Daniel Cousens",
   "description": "...",
+  "keywords": [
+    "typescript"
+  ],
   "repository": {
-    "type" : "git",
+    "type": "git",
     "url": "https://github.com/dcousens/monorepo-typescript.git"
   },
+  "bugs": {
+    "url": "https://github.com/dcousens/monorepo-typescript/issues"
+  },
+  "homepage": "https://github.com/dcousens/monorepo-typescript",
   "type": "module",
   "packageManager": "pnpm@8.10.2",
   "private": true,
   "scripts": {
     "build": "tsc -p tsconfig.dist.json",
     "test:types": "tsc -p tsconfig.json",
-    "test:unit": "node --test --loader tsx tests/*.ts",
+    "test:unit": "node --import tsx/esm --test ./tests/*.ts",
     "test": "pnpm test:types && pnpm test:unit"
   },
   "devDependencies": {
-    "@dcousens/foo": "workspace:^",
     "@dcousens/bar": "workspace:^",
+    "@dcousens/foo": "workspace:^",
     "@dcousens/stringify": "workspace:^",
     "@types/node": "^20.8.0",
-    "tsx": "^3.13.0",
+    "tsx": "^4.6.2",
     "typescript": "^5.2.2"
   },
   "publishConfig": {
