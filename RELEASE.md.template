@@ -1,0 +1,20 @@
+The following packages have been updated
+```
+%PACKAGES
+```
+
+#### Breaking Changes
+%MAJORS
+
+#### New Features
+%MINORS
+
+#### Bug Fixes
+%PATCHES
+
+#### :seedling: New Contributors
+Thanks to the following developers for making their first contributions to the project!
+%NEW_CONTRIBUTORS
+
+#### :blue_heart: Acknowledgements
+Lastly, thanks to %ACK_CONTRIBUTORS for changes not shown above, but still appreciated.

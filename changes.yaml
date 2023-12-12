@@ -1,0 +1,31 @@
+# not actually yaml
+
+package: bar
+type: patch
+description: Fixed something
+pr: 1112
+by: dcousens
+
+package: bar,foo
+type: patch
+description: Fixed another thing
+pr: 1113
+by: dcousens, dcousens
+
+package: bar
+type: minor
+description: Added a new thing
+pr: 1114
+by: dcousens
+
+package: bar
+type: minor
+description: Added something
+pr: 1115
+by: dcousens
+
+package: bar
+type: major
+description: Broke everything
+pr: 1116
+by: dcousens
