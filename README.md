@@ -8,4 +8,10 @@ The `build` step will output ESM compatible modules to `dist/*`, for each packag
 $ pnpm build
 ```
 
+The `test` step will verify the types of the packages using `tsc` and run the unit tests in `tests/`.
+
+```bash
+$ pnpm test
+```
+
 ## LICENSE [MIT](LICENSE)
